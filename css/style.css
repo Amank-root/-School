@@ -209,6 +209,17 @@ span {
     visibility: visible;
   }
 
+p#Hell {
+    display: flex;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    font-family: emoji;
+    align-items: center;
+    height: 100vh;
+    font-size: xxx-large;
+    font-weight: 600;
+}
 
 
         /* responsive code here */
