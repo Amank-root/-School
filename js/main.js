@@ -46,7 +46,7 @@ else {
   document.querySelector('Body').innerHTML = '';
   var tag = document.createElement("p");
   tag.setAttribute("id","Hell");
-  var text = document.createTextNode("Fuck Off!!");
+  var text = document.createTextNode("Fuck Off!! 😛😛");
   tag.appendChild(text);
   var element = document.getElementById("bash");
   document.querySelector('Body').appendChild(tag);
