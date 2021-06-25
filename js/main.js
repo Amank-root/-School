@@ -43,5 +43,4 @@ if (passcode === 'KinG Of HeLL') {
 }
 else {
   document.documentElement.remove()
-  document.write(<h1>Fuck Off</h1>)
 }
