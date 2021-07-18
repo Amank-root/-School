@@ -33,7 +33,7 @@ document.getElementById("foot").innerHTML = foot
 
 var passcode = prompt('Something To Say!!');
 
-if (passcode === 'KinG Of HeLL') {
+if (passcode === 'Something Useless') {
   dash = confirm('Your Page Is Loaded On Your Screen.')
   console.log('Lucifer Here.');
   console.log(dash)
