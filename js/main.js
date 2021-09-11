@@ -30,17 +30,17 @@ document.getElementById("foot").innerHTML = foot
 
 
 
-if (localStorage.passcode === "Something Useless") {
+if (sessionStorage.passcode === "Something Useless") {
     passcode = none
 }
 else{
     var passcode = prompt('Something To Say!!');
-    localStorage.setItem('passcode', passcode)
-    if (localStorage.passcode === "Something Useless") {
+    sessionStorage.setItem('passcode', passcode)
+    if (sessionStorage.passcode === "Something Useless") {
       dash = confirm('Your Page Is Loaded On Your Screen.')
       console.log('Lucifer Here.');
       console.log(dash)
-      if (localStorage.passcode != "Something Useless"){
+      if (sessionStorage.passcode != "Something Useless"){
           document.documentElement.remove()
       }
     }
