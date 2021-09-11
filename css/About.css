@@ -58,6 +58,7 @@ a.nav-link.active {
 p#Hell {
     display: flex;
     width: 100%;
+    background-color: #edf2fc;
     align-content: center;
     justify-content: center;
     font-family: emoji;
