@@ -30,14 +30,16 @@ document.getElementById("foot").innerHTML = foot
 
 
 
-
+if (sessionStorage.passcode === "Something Useless") {
+    passcode = none
+}
 var passcode = prompt('Something To Say!!');
-
-if (passcode === 'Something Useless') {
+sessionStorage.setItem('passcode', passcode)
+if (sessionStorage.passcode === "Something Useless") {
   dash = confirm('Your Page Is Loaded On Your Screen.')
   console.log('Lucifer Here.');
   console.log(dash)
-  if (dash === false){
+  if (sessionStorage.passcode != "Something Useless"){
       document.documentElement.remove()
   }
 }
