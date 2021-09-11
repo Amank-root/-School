@@ -33,23 +33,25 @@ document.getElementById("foot").innerHTML = foot
 if (localStorage.passcode === "Something Useless") {
     passcode = none
 }
-var passcode = prompt('Something To Say!!');
-localStorage.setItem('passcode', passcode)
-if (localStorage.passcode === "Something Useless") {
-  dash = confirm('Your Page Is Loaded On Your Screen.')
-  console.log('Lucifer Here.');
-  console.log(dash)
-  if (localStorage.passcode != "Something Useless"){
-      document.documentElement.remove()
-  }
-}
-else {
-  confirm('Wait A Bit Your Site Is On The Way!!!')
-  document.querySelector('Body').innerHTML = '';
-  var tag = document.createElement("p");
-  tag.setAttribute("id","Hell");
-  var text = document.createTextNode("Fuck Off!! 😛😛");
-  tag.appendChild(text);
-  var element = document.getElementById("bash");
-  document.querySelector('Body').appendChild(tag);
+else{
+    var passcode = prompt('Something To Say!!');
+    localStorage.setItem('passcode', passcode)
+    if (localStorage.passcode === "Something Useless") {
+      dash = confirm('Your Page Is Loaded On Your Screen.')
+      console.log('Lucifer Here.');
+      console.log(dash)
+      if (localStorage.passcode != "Something Useless"){
+          document.documentElement.remove()
+      }
+    }
+    else {
+      confirm('Wait A Bit Your Site Is On The Way!!!')
+      document.querySelector('Body').innerHTML = '';
+      var tag = document.createElement("p");
+      tag.setAttribute("id","Hell");
+      var text = document.createTextNode("Fuck Off!! 😛😛");
+      tag.appendChild(text);
+      var element = document.getElementById("bash");
+      document.querySelector('Body').appendChild(tag);
+    }
 }
