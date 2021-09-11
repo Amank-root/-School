@@ -7,8 +7,11 @@ body {
     width: 100%;
     height: 100vh;
     position: relative;
+    display: flex;
     overflow: auto;
     background-color: #edf2fc;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .car {
