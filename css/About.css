@@ -67,3 +67,50 @@ p#Hell {
     font-size: xxx-large;
     font-weight: 600;
 }
+
+
+.toltipp {
+    position: relative;
+    display: inline-block;
+}
+  
+  /* Tooltip text */
+  .toltipp .toltipptext {
+    visibility: hidden;
+    width: 240px;
+    font-size: 19px;
+    bottom: 106%;
+    left: -90px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    transition: bottom 1s;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 2;
+  }
+  .toltipp .toltipptext::after{
+  content: "";
+  position: relative;
+  bottom: -37px;
+  left: -45%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgb(255, 255, 255) transparent transparent transparent;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .toltipp:hover .toltipptext {
+    visibility: visible;
+  }
+
+@media only screen and (max-width:600px){
+    .py-24 {
+        padding-top: .5rem!important;
+        padding-bottom: .5rem!important;
+    }
+}
