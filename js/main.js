@@ -14,7 +14,7 @@ var foot =  '<footer class="text-gray-400 bg-gray-900 body-font">'+
                         '<a class="text-gray-400 ico" href="https://www.instagram.com/amankushwaha_28">'+
                             '<img src="https://img.icons8.com/nolan/50/instagram-new.png">'+
                         '</a>'+
-                        '<a class="ml-3 text-gray-400 ico toltipp" href="#">'+
+                        '<a class="ml-3 text-gray-400 ico toltipp">'+
                             '<span class="toltipptext">Unable On This Platform!</span>'+
                             '<img src="https://img.icons8.com/nolan/50/facebook-circled.png">'+
                         '</a>'+
