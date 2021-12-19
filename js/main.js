@@ -28,7 +28,9 @@ var foot =  '<footer class="text-gray-400 bg-gray-900 body-font">'+
 
 document.getElementById("foot").innerHTML = foot
 
+                            // End footer //
 
+                        // start of Fake_Users //
 
 if (sessionStorage.passcode === "Something Useless") {
     passcode = none
@@ -55,3 +57,14 @@ else{
       document.querySelector('Body').appendChild(tag);
     }
 }
+
+                        // End of Fake_Users //
+
+
+                        // Not Known Links //
+
+MyName = document.getElementById('MyName')
+
+MyName.addEventListener("click", () => {
+    location = 'https://amankushwaha.tk/about'
+})
