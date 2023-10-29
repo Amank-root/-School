@@ -32,36 +32,36 @@ document.getElementById("foot").innerHTML = foot
 
                         // start of Fake_Users //
 
-if (sessionStorage.passcode === "Something Useless") {
-    passcode = none
-}
-else{
-    var passcode = prompt('Something To Say!!');
-    sessionStorage.setItem('passcode', passcode)
-    if (sessionStorage.passcode === "Something Useless") {
-      dash = confirm('Your Page Is Loaded On Your Screen.')
-      console.log('Lucifer Here.');
-      console.log(dash)
-      if (sessionStorage.passcode != "Something Useless"){
-          document.documentElement.remove()
-      }
-    }
-    else {
-      confirm('Wait A Bit Your Site Is On The Way!!!')
-      document.querySelector('Body').innerHTML = '';
-      var tag = document.createElement("p");
-      tag.setAttribute("id","Hell");
-      var text = document.createTextNode("Fuck Off!! 😛😛");
-      tag.appendChild(text);
-      var element = document.getElementById("bash");
-      document.querySelector('Body').appendChild(tag);
-    }
-}
+// if (sessionStorage.passcode === "Something Useless") {
+//     passcode = none
+// }
+// else{
+//     var passcode = prompt('Something To Say!!');
+//     sessionStorage.setItem('passcode', passcode)
+//     if (sessionStorage.passcode === "Something Useless") {
+//       dash = confirm('Your Page Is Loaded On Your Screen.')
+//       console.log('Lucifer Here.');
+//       console.log(dash)
+//       if (sessionStorage.passcode != "Something Useless"){
+//           document.documentElement.remove()
+//       }
+//     }
+//     else {
+//       confirm('Wait A Bit Your Site Is On The Way!!!')
+//       document.querySelector('Body').innerHTML = '';
+//       var tag = document.createElement("p");
+//       tag.setAttribute("id","Hell");
+//       var text = document.createTextNode("Wrong input check the source code for the correct input!! 😛😛");
+//       tag.appendChild(text);
+//       var element = document.getElementById("bash");
+//       document.querySelector('Body').appendChild(tag);
+//     }
+// }
 
-                        // End of Fake_Users //
+//                         // End of Fake_Users //
 
 
-                        // Not Known Links //
+//                         // Not Known Links //
 
 MyName = document.getElementById('MyName')
 
